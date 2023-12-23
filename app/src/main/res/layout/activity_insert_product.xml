@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.InsertProduct">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/in8s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ad"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="You are inserting a Product"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/insPruductImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/right" />
+
+            <Button
+                android:id="@+id/prBrowImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="browse image"
+                android:textAllCaps="false" />
+
+            <EditText
+                android:id="@+id/insProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product name"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/insProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product Price"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/insProductBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product Brand"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/insProductQnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product Quantity"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/insProductDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product Description"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/insProductDiscount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product discount"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/insProductColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product color"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/insProductCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product category"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/insLongDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbg"
+                android:ems="10"
+                android:hint="Enter the product Long Description"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textColorHint="#DD5B5F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/instPrBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="insert"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "297082502869",
+    "project_id": "indianshop-a5520",
+    "storage_bucket": "indianshop-a5520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297082502869:android:188e87e6de42df7297ec5c",
+        "android_client_info": {
+          "package_name": "com.example.indianshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297082502869-tosinou9ndo66b1otpfcak70d4cmkpe2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn7FGukLo6yXeE0GL2JDxIoZbxrByy5os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297082502869-tosinou9ndo66b1otpfcak70d4cmkpe2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
